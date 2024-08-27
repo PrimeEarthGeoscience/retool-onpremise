@@ -41,5 +41,5 @@ services:
 
 databases:
 - name: 20240827_retool
-  databaseName: 20240827retooldb
+  databaseName: retooldb
   user: retool_user
