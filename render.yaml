@@ -12,23 +12,23 @@ services:
     value: production
   - key: POSTGRES_DB
     fromDatabase:
-      name: retool
+      name: 20240827_retool
       property: database
   - key: POSTGRES_HOST
     fromDatabase:
-      name: retool
+      name: 20240827_retool
       property: host
   - key: POSTGRES_PORT
     fromDatabase:
-      name: retool
+      name: 20240827_retool
       property: port
   - key: POSTGRES_USER
     fromDatabase:
-      name: retool
+      name: 20240827_retool
       property: user
   - key: POSTGRES_PASSWORD
     fromDatabase:
-      name: retool
+      name: 20240827_retool
       property: password
   - key: ENCRYPTION_KEY
     generateValue: true
